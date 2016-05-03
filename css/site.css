@@ -1,0 +1,75 @@
+.dc-chart g.row text {
+    fill: black;
+    font-size:10px;
+}
+
+#time_count rect.bar {
+    fill: #993404;
+}
+/*
+#time_stats rect.bar {
+	fill-opacity: 0.8;
+}
+
+#time_stats2 rect.bar {
+	fill-opacity: 0.8;
+}*/
+
+#zone-map {
+    height:220px;
+    width:100%;
+}
+
+.dc-chart .pie-slice {
+    fill:black;
+	font-size:10px;
+}
+
+.x-axis-label{
+    font-size:12px;
+}
+.y-axis-label{
+    font-size:12px;
+}
+.y-axis{
+    font-size:8px;
+}
+
+.his_chart {
+    width:100%;
+}
+
+#header{
+    padding-bottom:20px;
+    border-bottom-color: #ddd;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom:20px;
+}
+
+.headline{
+    font-size:1.1em;
+    color:#999
+}
+
+.date_headline{
+	font-size:0.8em;
+    color:#999
+}
+
+h5 { 
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+	margin: 6px;
+}
+
+.feature-info{
+    padding:2px;
+    background-color:white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    color:'black';
+    font-size:1em;
+ }
