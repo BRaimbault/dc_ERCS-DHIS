@@ -38,7 +38,7 @@ var MapQuestOpen_OSM = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/{type}
 	
     var _tiles = function (map) {
         L.tileLayer('http://korona.geog.uni-heidelberg.de/tiles/roads/x={x}&y={y}&z={z}', {
-            attribution: 'GIScience Heidelberg and &copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            attribution: 'Heidelberg U. - <a href="http://openstreetmap.org/copyright">OSM</a> contrib.'
         }).addTo(map);
     };
 	
